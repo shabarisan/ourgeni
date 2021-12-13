@@ -1,0 +1,27 @@
+.add-review-box label.text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    line-height: 30px;
+}
+.add-review-box textarea {
+    padding: 15px;
+    min-height: 130px;
+    border: 1px solid #D4D4D4;
+    font-size: 12px;
+    color: #333333;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+.add-review-box textarea:focus-visible {
+    outline: none;
+}
+.add-review-box .review-stars label {
+    font-size: 28px;
+}
+.add-review-box .MuiInput-underline:before,
+.add-review-box .MuiInput-underline:hover:not(.Mui-disabled):before,
+.add-review-box .MuiInput-underline.Mui-error:after,
+.add-review-box .MuiInput-underline:after {
+    border: none;
+}

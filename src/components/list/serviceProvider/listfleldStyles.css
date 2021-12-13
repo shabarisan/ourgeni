@@ -1,0 +1,225 @@
+.combo-box-demo .MuiAutocomplete-endAdornment
+{
+    background: #219887;
+    right: 0px !important;
+    height: 100%;
+    top:0px;
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.buttonGroupList{
+    height: 50px;
+    font-family:'Montserrat';
+    color: #5d5d5d;
+    border:none;
+}
+.service-title{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.buttonGroupList span{
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.combo-box-demo button{
+    top:5px;
+    right: 1px;
+    color:#ffff;
+}
+.combo-box-demo button svg{
+    width: 40px;
+    height: 40px;
+}
+.rating-box{
+    width: 28px;
+    height: 18px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    float: left;
+    color: #fff;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:5px;
+    margin-left: 7px;
+}
+.green-box {
+    background-color: green;
+}
+.yellow-box {
+    background-color: #ff8f00;
+}
+.red-box {
+    background-color: red;
+}
+.review-counts {
+    font-size: 14px;
+    margin-left: 5px;
+    font-family:'Montserrat';
+}
+.business-location {
+  font: normal normal normal 14px/24px 'Montserrat-Regular';
+    letter-spacing: 0px;
+    color: #878787;
+}
+.business-location-icon {
+    margin-left: 5px;
+    font: normal normal normal 14px/24px 'Montserrat-Regular';
+      letter-spacing: 0px;
+      color: #878787;
+  }
+
+/* Service Page New CSS */
+.sort-by-select select {
+    color: #5A5959;
+    border: 1px solid #C8C8C8;
+    padding: 12px 15px;
+    font-size: 14px;
+    min-width: 150px;
+    box-shadow: none;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.sort-by-select select option {
+    padding: 12px;
+}
+.service-listing-card {
+    padding: 20px;
+    background: #fff;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+.service-listing-card .service-provider-image {
+    height: 200px;
+}
+.service-listing-card .service-provider-image img {
+    /* min-height: 230px;
+    max-height: 230px;
+    border-radius: 5px;
+    width: 100%;
+    min-width: 180px;
+    max-width: 180px;
+    object-fit: cover; */
+    height: inherit;
+    border-radius: 5px;
+    width: 100%;
+    object-fit: contain;
+}
+.service-listing-card .services-contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.service-listing-card .services-contact-info ul li {
+    font-size: 13px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-bottom: 7px;
+}
+.service-listing-card .services-contact-info ul li img {
+    margin-right: 10px;
+}
+.service-listing-card .services-contact-info ul li p {
+    color: #333;
+    font-weight: 600;
+    display: inline;
+    font-size: 13px;
+}
+.service-listing-card .services-contact-info ul li svg {
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+}
+.service-listing-card .desc p {
+    font-size: 12px;
+    line-height: 30px;
+    color: #131313;
+}
+.view-details-btn {
+    font-size: 12px;
+    min-width: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    background: #fff;
+    border: 1px solid #9f9f9f;
+    color: #404040;
+    line-height: 1.2;
+    margin-top: 5px;
+    text-transform: none;
+    padding: 5px 9px;
+}
+.view-details-btn.green-btn {
+    background: #24A98E;
+    color: #fff;
+    border-color: #24A98E;
+}
+.service-listing-card .service-offered .left-title {
+    float: left;
+    width: 25%;
+}
+.service-listing-card .service-offered .left-title h4 {
+    font-size: 12px;
+    color: #333333;
+    margin: 0;
+}
+.service-listing-card .service-offered .left-title h4 i{
+    margin-right: 10px;
+}
+.service-listing-card .service-offered .right-title {
+    float: left;
+    width: 75%;
+}
+.service-listing-card .service-offered ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.service-listing-card .service-offered ul li {
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 12px;
+    color: #000000;
+    vertical-align: middle;
+}
+.service-listing-card .service-offered ul li span {
+    margin-top: -3px;
+    margin-left: 5px;
+}
+@media only screen and (max-width: 768px){
+    .sort-by-select select{
+        min-width: auto;
+    }
+    .service-listing-card .service-provider-image img{
+        object-fit: contain;
+    }
+    .view-details-btn{
+        padding: 4px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .service-listing-card .service-provider-image img{
+        min-height: 130px;
+    }
+    .view-details-btn{
+        min-width: auto;
+        text-align: center;
+        line-height: 1.2;
+        margin: 3px;
+    }
+    .service-listing-card .service-offered .left-title{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px){
+    span.review-counts {
+        display: block;
+    }
+}

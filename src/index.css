@@ -1,0 +1,103 @@
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+    src: url('assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+    src: url('assets/fonts/Montserrat/Montserrat-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraLight';
+    src: url('assets/fonts/Montserrat/Montserrat-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('assets/fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+    src: url('assets/fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('assets/fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: url(assets/g-fonts/JTURjIg1_i6t8kCHKm45_cJD3gnD-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/g-fonts/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url(assets/g-fonts/JTURjIg1_i6t8kCHKm45_ZpC3gnD-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url(assets/g-fonts/JTURjIg1_i6t8kCHKm45_bZF3gnD-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url(assets/g-fonts/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf) format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat-Regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+h1, h2, h3, h4, h5, p, ul{
+  font-family: 'Montserrat' !important;
+}
+.companyLogoitem:hover::after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: '';
+  left: 0;
+  top: 0;
+  background: #61B96D 0% 0% no-repeat padding-box;
+  opacity: 0.78;
+}
+code {
+  font-family: 'Montserrat-Regular';
+}
+#back-to-top-anchor .MuiButtonBase-root .MuiButton-label{
+  font-size:14px;
+}
+.MuiContainer-root{padding: 0;}
+.MuiAutocomplete-popper *{font-size: 14px;}
+.MuiAutocomplete-popper {
+  width: auto !important;
+}

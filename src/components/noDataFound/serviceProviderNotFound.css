@@ -1,0 +1,28 @@
+.graphic-flex-row {
+    display: flex;
+    margin: 150px 0px 50px;
+}
+.graphic-box {
+    text-align: center;
+    max-width: 75%;
+    margin: 0 auto;
+}
+.graphic-box .graphic-content{
+    color: #707070;
+    font: normal normal normal 16px/24px Montserrat;
+    font-size: 16px;
+}
+.graphic-box img {
+    width: 100%;
+}
+
+.graphic-box .graphic-button{
+    background: #9A9393 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+     color: #FFFFFF;
+     margin-top: 25px;
+     text-transform: capitalize;
+     font: normal normal bold 13px/20px Montserrat;
+     padding: 10px 25px;
+}

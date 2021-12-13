@@ -1,0 +1,22 @@
+import validator from 'validator';
+export const isValid = (field: string, fieldValue: string, action: any): any => {
+    console.log(field);
+    switch (field) {
+        case "userid":
+            if (fieldValue !== "" && validateEmail(fieldValue) && fieldValue.length < 39) {
+                action.removeError("error_email")
+                action.addError("error_validate")
+            }
+            else {
+                action.addError("error_email")
+                action.removeError("error_validate")
+            }
+            break;
+        default:
+            return;
+    }
+}
+export const validateEmail = (emailId: string): boolean => {
+    //console.log(validator.isEmail(emailId));
+    return validator.isEmail(emailId, { domain_specific_validation: true });
+}

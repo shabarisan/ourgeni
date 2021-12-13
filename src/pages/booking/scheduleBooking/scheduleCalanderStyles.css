@@ -1,0 +1,9 @@
+.Calendar__monthText{
+   text-transform: uppercase;
+}
+.Calendar__weekDays{
+   color: black;
+}
+.Calendar__day{
+   color:#555555 ;
+} 

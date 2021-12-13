@@ -1,0 +1,21 @@
+.MuiPhoneNumber-positionStart {
+    padding-left:10px;
+    height: 60px;
+}
+.MuiInputBase-adornedStart{
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #f1f1f1;
+}
+
+.otpFields input[type="text"] { 
+    width: 3em !important;
+    height: 3em !important;
+    margin-left: 5px;
+}
+
+
+.resendOtp div button:hover{
+    cursor:pointer;
+}

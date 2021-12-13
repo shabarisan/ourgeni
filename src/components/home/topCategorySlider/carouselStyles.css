@@ -1,0 +1,31 @@
+.carousel-container-services .react-multiple-carousel__arrow--left{
+    left: -12px;
+}
+
+.react-multiple-carousel__arrow{
+    background:none;
+    color: darkgrey;
+    border-radius: 10px;
+}
+.react-multiple-carousel__arrow:hover{
+    background:none;
+}
+.react-multiple-carousel__arrow--right {
+    right: calc(-1% + 1px);
+}
+.react-multiple-carousel__arrow--left {
+    left: calc(-1% + 1px);
+}
+.react-multiple-carousel__arrow--right::before {
+    content: url('../../../assets/img/backarrow-icon2.svg');
+}
+.react-multiple-carousel__arrow--left::before {
+    content: url('../../../assets/img/backarrow-icon.svg');
+    
+}
+.carousel-container-services .react-multiple-carousel__arrow--right{
+    right: -12px;
+}
+.image-item {
+    padding: 0px 15px;
+}

@@ -1,0 +1,250 @@
+/* Service provider page starts */
+.provider-detail-banner {
+    /* background: url(../../../assets/img/category-banner-bg.png) no-repeat; */
+    position: relative;
+    padding: 130px 0 0 0;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    width: 100%;
+    align-items: center;
+    font-family: 'Montserrat';
+    background-repeat: no-repeat;
+}
+.provider-detail-banner:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: rgb(0 0 0 / 82%);
+    top: 0;
+    content: "";
+}
+.provider-detail-banner .z-index-9 {
+    z-index: 99;
+}
+.provider-detail-box {
+    padding: 0px 20px;
+    z-index: 99;
+}
+.provider-detail-box .provider-title-1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #F9F9F9;
+    margin: 0px 0px 20px;
+}
+.provider-detail-box .btn-write-review {
+    padding: 10px 25px;
+    background: #fff;
+    color: #272727;
+    font-size: 14px;
+    text-transform: none;
+    font-family: 'Montserrat';
+}
+.provider-detail-box .btn-write-review .icon {
+    margin-right: 5px;
+    width: 18px;
+    height: 18px;
+}
+.provider-detail-box .contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    clear: both;
+}
+.provider-detail-box .contact-list li {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.provider-detail-box .contact-list li .icon {    
+    margin-right: 7px;
+}
+.provider-breadcrumbs {
+    padding: 20px 0px;
+}
+.provider-details-main {
+    margin-top: 30px;
+}
+.provider-details-main .provider-detail-card {
+    font-family: 'Montserrat' !important;
+}
+.provider-details-main .provider-detail-card .card-body {
+    padding: 0;
+}
+.provider-details-main .provider-detail-card .card-padding {
+    padding: 25px;
+    border-bottom: 1px solid #eaeaea;
+}
+.provider-details-main .provider-detail-card .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+.provider-details-main .provider-detail-card .mb-0 {
+    margin-bottom: 0px;
+}
+.provider-details-main .provider-detail-card .card-desc {
+    font-size: 14px;
+    color: #000000;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 0px;
+}
+.provider-details-main .provider-detail-card .company-info-cards {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.provider-details-main .provider-detail-card .company-info-cards li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.provider-details-main .provider-detail-card .company-info-cards li .icon {
+    float: left;
+    width: 20px;
+}
+.provider-details-main .provider-detail-card .company-info-cards li .text {
+    float: left;
+    margin: 0px 0px 0px 10px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 600;
+}
+.provider-details-main .provider-detail-card .company-info-cards li .text span {
+    display: block;
+    color: #666666;
+    font-size: 14px;
+    margin-top: 13px;
+    font-weight: normal;
+}
+/* Rating styles */
+.provider-detail-box.right-button {
+    text-align: right;
+}
+.provider-detail-banner .rating-box {
+    margin-top: 0;
+    margin-right: 10px;
+}
+.provider-detail-banner .MuiRating-iconEmpty {
+    color: #ffb400;
+}
+
+/* Banner dropdown css */
+.banner-dropdown-search fieldset {
+    border-color: #fff !important;
+    top: 0;
+}
+.banner-dropdown-search fieldset legend {
+    display: none;
+}
+.banner-dropdown-search .MuiIconButton-root,
+.banner-dropdown-search .MuiInputBase-root {
+    color: #585858;
+    border-radius: 5px;
+    padding-top: 6px;
+}
+.banner-dropdown-search label {
+    padding-left: 25px;
+    color: #585858;
+    display: none;
+}
+.banner-dropdown-search input {
+    padding-left: 30px !important;
+    color: #585858;
+}
+.banner-dropdown-search .MuiFormControl-fullWidth {
+    background: #fff;
+    border-radius: 5px;
+}
+.banner-dropdown-search .MuiOutlinedInput-root:hover 
+.banner-dropdown-search .MuiOutlinedInput-notchedOutline {
+    border-color: #fff !important;
+}
+.loder {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: calc(100vh - 280px);
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .provider-detail-box.right-button {
+        text-align: left;
+    }
+    .provider-detail-box .provider-title-1 {
+        font-size: 18px;
+    }
+    .provider-detail-box .contact-list li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+/* Service provider page ends */
+
+
+@media screen and (max-width: 991px) {
+    .provider-details-main .provider-detail-card .company-info ul.dates li{
+        display: flex;
+    }
+    .provider-details-main .provider-detail-card .company-info ul.dates li span{
+        width: 140px;
+    }
+    .similar-cards .similar-card-body{
+        padding:10px;
+    }
+    .similar-cards .card-ratings{
+        display: block;
+    }
+    .similar-cards .card-ratings .review{
+        display: flex;
+        margin: 0
+    }
+    .provider-details-main .provider-detail-card .company-info-cards li .text span{
+        margin-top: 0;
+    }
+    .provider-details-main .provider-detail-card .card-title{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .provider-details-main{
+        margin-top:0;
+    }
+    .provider-breadcrumbs{
+        margin-top:0;
+    }
+    .provider-breadcrumbs{
+        padding-bottom: 0;
+    }
+    .card-desc p{
+        margin: 0;
+    }    
+}
+@media screen and (max-width: 480px) {
+    .rating-progress{
+        display: block
+    }
+    .rating-progress .review-total,
+    .rating-progress .all-progress{
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+    .comment-lists .comment-content p{
+        margin: 0;
+    }
+    .provider-detail-banner{
+        padding: 100px 0 50px;
+    }
+}
